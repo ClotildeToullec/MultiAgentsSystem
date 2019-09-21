@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "ClotildeToullec 9/21/2019 17:30",
+	"super" : "Object",
+	"category" : "TP-SCI-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"espace",
+		"isToric",
+		"gridSizeX",
+		"gridSizeY",
+		"agents"
+	],
+	"name" : "Environment",
+	"type" : "normal"
+}

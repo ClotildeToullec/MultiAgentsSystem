@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "TP-SCI-Parameters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"torus",
+		"gridSizeX",
+		"gridSizeY",
+		"nbParticles"
+	],
+	"name" : "SMAProperties",
+	"type" : "normal"
+}

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "TP-SCI-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"environment",
+		"agent2",
+		"agent3",
+		"agent1",
+		"agent4"
+	],
+	"name" : "AgentTest",
+	"type" : "normal"
+}

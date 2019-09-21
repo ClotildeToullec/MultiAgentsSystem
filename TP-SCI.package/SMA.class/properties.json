@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "ClotildeToullec 9/21/2019 17:30",
+	"super" : "Object",
+	"category" : "TP-SCI-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"agents",
+		"environment"
+	],
+	"name" : "SMA",
+	"type" : "normal"
+}
