@@ -1,9 +1,11 @@
 running
 run
-	"shuffle les agents"
-
-	agents shuffle.
-	"agents shuffleBy: Random seed: parameters seed."
-
-	"appelle decide sur tous les agents"
-	agents do: [ :agent | agent decide ]
+	isStopped := false.
+	view := SMAView model: self.
+	view open.
+	self announcer
+		when: SMAUpdateAnnouncement
+		send: #updateAgents:
+		to: view.
+	agents do: [ :agent | view addAgent: agent at: agent position ].
+	[ [isStopped] whileFalse: [ self updateAgents ] ] fork

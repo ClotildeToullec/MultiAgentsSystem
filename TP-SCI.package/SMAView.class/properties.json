@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "TP-SCI-View-Morphic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"container",
+		"rows",
+		"sma",
+		"cells",
+		"agentSize",
+		"dimension"
+	],
+	"name" : "SMAView",
+	"type" : "normal"
+}

@@ -7,7 +7,10 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"agents",
-		"environment"
+		"environment",
+		"announcer",
+		"view",
+		"isStopped"
 	],
 	"name" : "SMA",
 	"type" : "normal"

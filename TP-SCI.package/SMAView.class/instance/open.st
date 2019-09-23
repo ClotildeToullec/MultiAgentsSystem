@@ -1,0 +1,3 @@
+initialization
+open
+	container openInWindow
