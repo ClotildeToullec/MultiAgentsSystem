@@ -1,4 +1,4 @@
-running
+instance creation
 fromProperties
 	| env agents properties |
 	properties := STONJSON
@@ -7,7 +7,7 @@ fromProperties
 				readStream.
 	env := Environment new: properties.
 	agents := self createAgents: properties in: env.
-	env agents: agents.
-	^ self new
+	env addAgents: agents.
+	^ (self new: properties)
 		agents: agents environment: env;
 		yourself

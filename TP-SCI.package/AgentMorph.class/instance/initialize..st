@@ -3,7 +3,7 @@ initialize: anAgent
 	super initialize.
 	self agent: anAgent.
 	self setColor.
-	self
+	"	self
 		borderColor: Color black;
-		borderWidth: 1.
-	self extent: 10 @ 10
+		borderWidth: 1."
+	self on: #click send: #inspect to: agent

@@ -13,7 +13,7 @@ resetAgents
 		direction: self direction4;
 		yourself.
 	environment
-		agents:
+		addAgents:
 			{agent1.
 			agent2.
 			agent3.

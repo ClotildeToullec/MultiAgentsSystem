@@ -10,7 +10,8 @@
 		"environment",
 		"announcer",
 		"view",
-		"isStopped"
+		"isStopped",
+		"properties"
 	],
 	"name" : "SMA",
 	"type" : "normal"

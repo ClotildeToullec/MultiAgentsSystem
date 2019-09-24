@@ -1,4 +1,4 @@
-creation
+instance creation
 createAgents: smaProperties in: anEnvironment
 	| positions |
 	positions := Set new.

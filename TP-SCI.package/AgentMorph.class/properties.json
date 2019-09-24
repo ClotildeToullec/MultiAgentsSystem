@@ -9,6 +9,6 @@
 		"view",
 		"agent"
 	],
-	"name" : "AgentCell",
+	"name" : "AgentMorph",
 	"type" : "normal"
 }

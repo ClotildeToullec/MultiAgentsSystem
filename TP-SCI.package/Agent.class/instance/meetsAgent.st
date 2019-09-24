@@ -1,3 +1,4 @@
 testing
 meetsAgent
-	^ environment agentIn: self destination
+	^ environment
+		agentIn: (environment adaptCoordinates: self destination)
