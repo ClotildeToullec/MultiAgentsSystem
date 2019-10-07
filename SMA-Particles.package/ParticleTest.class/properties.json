@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "SMA-Particles",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"environment",
+		"agent2",
+		"agent3",
+		"agent1",
+		"agent4"
+	],
+	"name" : "ParticleTest",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Environment",
+	"category" : "SMA-Wator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"newBorns",
+		"properties"
+	],
+	"name" : "Sea",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+accessing
+pixelSizeX
+	^ gridSizeX * boxSize

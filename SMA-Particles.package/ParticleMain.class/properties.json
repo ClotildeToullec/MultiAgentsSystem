@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SMA",
+	"category" : "SMA-Particles",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hasBumped"
+	],
+	"name" : "ParticleMain",
+	"type" : "normal"
+}

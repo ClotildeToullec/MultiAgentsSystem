@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "SMAProperties",
+	"category" : "SMA-Wator-Properties",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sharkBreedTime",
+		"fishBreedTime",
+		"sharkStarveTime",
+		"nbSharks",
+		"nbFishes"
+	],
+	"name" : "WatorProperties",
+	"type" : "normal"
+}

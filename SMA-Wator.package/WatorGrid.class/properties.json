@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SMAGrid",
+	"category" : "SMA-Wator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WatorGrid",
+	"type" : "normal"
+}

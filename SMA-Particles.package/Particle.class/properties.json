@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Agent",
+	"category" : "SMA-Particles",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hasBumped"
+	],
+	"name" : "Particle",
+	"type" : "normal"
+}

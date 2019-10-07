@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SMA-Core-Properties",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"torus",
+		"gridSizeX",
+		"gridSizeY",
+		"boxSize",
+		"delay",
+		"scheduling",
+		"nbTicks",
+		"grid",
+		"logTrace",
+		"seed",
+		"refresh",
+		"nbParticles"
+	],
+	"name" : "SMAProperties",
+	"type" : "normal"
+}

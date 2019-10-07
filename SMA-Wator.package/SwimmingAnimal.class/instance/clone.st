@@ -1,0 +1,3 @@
+life
+clone
+	self subclassResponsibility

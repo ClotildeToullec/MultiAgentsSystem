@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Announcement",
+	"category" : "SMA-View-Morphic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"agents"
+	],
+	"name" : "SMAUpdateAnnouncement",
+	"type" : "normal"
+}

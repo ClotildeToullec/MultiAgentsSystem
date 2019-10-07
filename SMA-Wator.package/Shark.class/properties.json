@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SwimmingAnimal",
+	"category" : "SMA-Wator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"starveTime",
+		"lastMeal"
+	],
+	"name" : "Shark",
+	"type" : "normal"
+}

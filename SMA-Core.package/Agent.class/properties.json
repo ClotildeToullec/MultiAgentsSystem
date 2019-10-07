@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "ClotildeToullec 9/21/2019 17:30",
+	"super" : "Object",
+	"category" : "SMA-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"x",
+		"y",
+		"pasX",
+		"pasY",
+		"destination",
+		"environment"
+	],
+	"name" : "Agent",
+	"type" : "normal"
+}
