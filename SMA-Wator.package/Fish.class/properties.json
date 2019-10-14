@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
-	"super" : "SwimmingAnimal",
-	"category" : "SMA-Wator",
+	"super" : "WatorAgent",
+	"category" : "SMA-Wator-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

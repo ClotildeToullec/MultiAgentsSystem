@@ -1,0 +1,3 @@
+action
+decide
+	isNewBorn := false

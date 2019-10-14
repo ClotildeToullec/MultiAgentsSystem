@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Main",
+	"category" : "SMA-Wator-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WatorMain",
+	"type" : "normal"
+}

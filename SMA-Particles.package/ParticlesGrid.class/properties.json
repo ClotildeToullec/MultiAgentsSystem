@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SMAGrid",
+	"category" : "SMA-Particles-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ParticlesGrid",
+	"type" : "normal"
+}

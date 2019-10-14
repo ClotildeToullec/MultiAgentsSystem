@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SMA-View-Deprecated-Morphic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"container",
+		"rows",
+		"sma",
+		"cells",
+		"dimension"
+	],
+	"name" : "SMAView",
+	"type" : "normal"
+}

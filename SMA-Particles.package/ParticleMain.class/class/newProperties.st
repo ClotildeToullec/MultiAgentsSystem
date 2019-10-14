@@ -1,3 +1,3 @@
 instance creation
 newProperties
-	^ SMAProperties new
+	^ ParticlesProperties new

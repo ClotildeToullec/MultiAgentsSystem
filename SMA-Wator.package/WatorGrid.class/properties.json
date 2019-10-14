@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "SMAGrid",
-	"category" : "SMA-Wator",
+	"category" : "SMA-Wator-View",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

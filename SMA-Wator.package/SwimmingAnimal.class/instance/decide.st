@@ -1,3 +1,0 @@
-action
-decide
-	self subclassResponsibility

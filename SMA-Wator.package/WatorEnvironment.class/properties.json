@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Environment",
+	"category" : "SMA-Wator-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"newBorns",
+		"properties"
+	],
+	"name" : "WatorEnvironment",
+	"type" : "normal"
+}

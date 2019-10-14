@@ -1,15 +1,14 @@
 initialization
 initialize
 	super initialize.
-	torus := true.
+	torus := false.
 	gridSizeX := 100.
 	gridSizeY := 100.
-	boxSize := 6 @ 6.
-	delay := 0.5 seconds.
+	boxSize := 10 @ 10.
+	delay := 0.2 seconds.
 	scheduling := #sequential.
-	nbTicks := 500.
+	nbTicks := 0.
 	grid := true.
 	logTrace := false.
 	seed := 0.
-	refresh := 1.
-	nbParticles := 1000
+	refresh := 1

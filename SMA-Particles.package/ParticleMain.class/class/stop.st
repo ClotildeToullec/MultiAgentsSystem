@@ -1,4 +1,4 @@
 stopping
 stop
 	<script>
-	super stop
+	self allInstancesDo: [ :sma | sma stop ]

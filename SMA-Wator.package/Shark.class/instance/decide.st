@@ -1,8 +1,11 @@
 action
 decide
 	| previousPosition |
+	super decide.
+	isDead
+		ifTrue: [ self assert: (environment agents includes: self) not.
+			^ self ].
 	previousPosition := self position.
-	isNewBorn := false.
 	hasMoved := false.
 	"Mort ?"
 	lastMeal = starveTime

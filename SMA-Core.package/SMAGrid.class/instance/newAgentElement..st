@@ -1,0 +1,3 @@
+instance creation
+newAgentElement: anAgent
+	self subclassResponsibility

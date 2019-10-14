@@ -16,8 +16,7 @@
 		"grid",
 		"logTrace",
 		"seed",
-		"refresh",
-		"nbParticles"
+		"refresh"
 	],
 	"name" : "SMAProperties",
 	"type" : "normal"

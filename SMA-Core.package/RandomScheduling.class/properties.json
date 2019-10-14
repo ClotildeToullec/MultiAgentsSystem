@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SchedulingStrategy",
+	"category" : "SMA-Core-Scheduling",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RandomScheduling",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SMA-Core-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gridElement",
+		"sma",
+		"grid",
+		"agents"
+	],
+	"name" : "SMAGrid",
+	"type" : "normal"
+}

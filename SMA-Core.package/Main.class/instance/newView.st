@@ -1,0 +1,3 @@
+view
+newView
+	self subclassResponsibility

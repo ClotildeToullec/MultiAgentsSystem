@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "SMA-Wator-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sma",
+		"environment",
+		"main"
+	],
+	"name" : "WatorMainTest",
+	"type" : "normal"
+}

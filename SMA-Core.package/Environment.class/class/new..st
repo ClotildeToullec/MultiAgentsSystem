@@ -5,7 +5,10 @@ new: smaProperties
 		gridSizeY: smaProperties gridSizeY;
 		isToric: smaProperties torus;
 		agents:
-			(Array2D
+			(Dictionary
+				newFromKeys: (Array new: smaProperties gridSizeX)
+				andValues: ((1 to: smaProperties gridSizeX) collect: [ :i | Dictionary new ]));
+		"(Array2D
 				rows: smaProperties gridSizeX
-				columns: smaProperties gridSizeY);
-		yourself
+				columns: smaProperties gridSizeY)"
+			yourself

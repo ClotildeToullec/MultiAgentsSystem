@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Agent",
+	"category" : "SMA-Wator-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"isDead",
+		"breedTime",
+		"hasMoved",
+		"lifeLength",
+		"isNewBorn"
+	],
+	"name" : "WatorAgent",
+	"type" : "normal"
+}

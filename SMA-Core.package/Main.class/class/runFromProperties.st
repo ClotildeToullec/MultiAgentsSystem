@@ -1,0 +1,3 @@
+running
+runFromProperties
+	self subclassResponsibility

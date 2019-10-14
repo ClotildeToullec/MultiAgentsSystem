@@ -1,0 +1,3 @@
+stopping
+stop
+	self subclassResponsibility

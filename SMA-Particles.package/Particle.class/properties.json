@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Agent",
-	"category" : "SMA-Particles",
+	"category" : "SMA-Particles-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
