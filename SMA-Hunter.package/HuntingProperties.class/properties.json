@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "SMAProperties",
+	"category" : "SMA-Hunter-Properties",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"wallsPercent",
+		"nbHunters",
+		"speedHunter",
+		"speedAvatar",
+		"defenderLife"
+	],
+	"name" : "HuntingProperties",
+	"type" : "normal"
+}

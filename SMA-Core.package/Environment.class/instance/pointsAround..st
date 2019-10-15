@@ -9,4 +9,5 @@ pointsAround: center
 	(center + (-1 @ -1)).
 	(center + (-1 @ 1)).
 	(center + (1 @ -1))}.
-	^ surroundings collect: [ :point | self adaptCoordinates: point ]
+	^ (surroundings collect: [ :point | self adaptCoordinates: point ])
+		asSet

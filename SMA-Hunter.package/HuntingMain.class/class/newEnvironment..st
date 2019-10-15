@@ -1,3 +1,3 @@
 instance creation
 newEnvironment: properties
-	self subclassResponsibility
+	^ HuntingEnvironment new: properties

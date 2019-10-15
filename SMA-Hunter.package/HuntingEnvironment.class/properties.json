@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Environment",
+	"category" : "SMA-Hunter-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"distancesToAvatar"
+	],
+	"name" : "HuntingEnvironment",
+	"type" : "normal"
+}

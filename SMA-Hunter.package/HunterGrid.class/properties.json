@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SMAGrid",
+	"category" : "SMA-Hunter-View",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "HunterGrid",
+	"type" : "normal"
+}

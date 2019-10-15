@@ -8,7 +8,4 @@ new: smaProperties
 			(Dictionary
 				newFromKeys: (Array new: smaProperties gridSizeX)
 				andValues: ((1 to: smaProperties gridSizeX) collect: [ :i | Dictionary new ]));
-		"(Array2D
-				rows: smaProperties gridSizeX
-				columns: smaProperties gridSizeY)"
-			yourself
+		yourself

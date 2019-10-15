@@ -1,0 +1,3 @@
+testing
+isAvatar
+	^ true

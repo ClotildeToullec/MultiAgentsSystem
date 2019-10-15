@@ -1,0 +1,3 @@
+accessing
+nbHunters
+	^ nbHunters
