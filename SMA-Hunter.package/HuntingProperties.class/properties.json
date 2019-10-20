@@ -10,7 +10,8 @@
 		"nbHunters",
 		"speedHunter",
 		"speedAvatar",
-		"defenderLife"
+		"defenderLife",
+		"invincibleLength"
 	],
 	"name" : "HuntingProperties",
 	"type" : "normal"

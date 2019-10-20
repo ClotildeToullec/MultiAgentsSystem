@@ -7,5 +7,5 @@ setUp
 		gridSizeX: 30;
 		gridSizeY: 30;
 		isToric: false;
-		agents: (Array2D rows: 30 columns: 30);
+		agents: Dictionary new;
 		yourself

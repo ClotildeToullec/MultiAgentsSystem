@@ -1,4 +1,4 @@
 life
 die
-	HuntingMain stop.
+	HuntingMain finish.
 	UIManager default alert: 'Avatar died'

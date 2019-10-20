@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Agent",
+	"super" : "HuntingAgent",
 	"category" : "SMA-Hunter-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,3 +1,3 @@
 testing
-isHunter
+isDefender
 	^ false

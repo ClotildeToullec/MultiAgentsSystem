@@ -1,0 +1,3 @@
+life
+beVincible
+	isInvincible := false.

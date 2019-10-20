@@ -1,9 +1,6 @@
 running
 updateAgents: nbTicks
 	| newBorns |
-	self
-		assert: view agents size = agents size
-		description: 'Pas les bons agents'.
 	super updateAgents: nbTicks.
 	view removeDeadAnimals.
 	newBorns := environment newBorns.
@@ -13,6 +10,5 @@ updateAgents: nbTicks
 	self
 		assert: view agents size = agents size
 		description: 'Pas les bons agents'.
-	"view agents keys. agents."
 	nbTicks % properties refresh ~= 0
 		ifTrue: [ ^ self ]

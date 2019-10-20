@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "HuntingAgent",
+	"category" : "SMA-Hunter-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tick",
+		"life",
+		"isDead"
+	],
+	"name" : "Defender",
+	"type" : "normal"
+}

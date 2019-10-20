@@ -1,0 +1,3 @@
+running
+finish
+	isFinish := true

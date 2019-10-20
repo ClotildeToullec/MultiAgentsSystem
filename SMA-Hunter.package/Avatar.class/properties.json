@@ -1,11 +1,18 @@
 {
 	"commentStamp" : "",
-	"super" : "Agent",
+	"super" : "HuntingAgent",
 	"category" : "SMA-Hunter-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"tick",
+		"speed",
+		"isInvincible",
+		"invincibleSince",
+		"invincibleLength",
+		"announcer"
+	],
 	"name" : "Avatar",
 	"type" : "normal"
 }

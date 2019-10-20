@@ -1,3 +1,3 @@
-initialization
+accessing
 avatar
-	avatar := agents detect: [ :agt | agt isAvatar ]
+	^ avatar := avatar ifNil: [ self resetAvatar ]

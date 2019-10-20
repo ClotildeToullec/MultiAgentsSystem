@@ -1,3 +1,3 @@
-avatar
+agents
 avatarY: anInt
-	avatar pasY: anInt
+	self avatar pasY: anInt

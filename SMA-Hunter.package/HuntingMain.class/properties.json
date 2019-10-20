@@ -6,8 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"distancesToAvatar",
-		"avatar"
+		"avatar",
+		"consumedDefenders",
+		"hunters",
+		"isFinish",
+		"nbTicks"
 	],
 	"name" : "HuntingMain",
 	"type" : "normal"

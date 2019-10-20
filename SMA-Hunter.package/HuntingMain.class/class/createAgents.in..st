@@ -1,23 +1,29 @@
 instance creation
 createAgents: properties in: anEnvironment
-	| positions nbWalls walls avatar hunters |
-	positions := Set new.
-	nbWalls := properties wallsPercent / 100
-		* (properties gridSizeX * properties gridSizeY).
-	[ positions size == (nbWalls + properties nbHunters + 1) ]
-		whileFalse: [ positions
-				add:
-					(1 to: properties gridSizeX) atRandom
-						@ (1 to: properties gridSizeY) atRandom ].
-	positions := positions asArray shuffle.
-	avatar := Avatar newAt: positions first in: anEnvironment.
+	| mazeCreator freeCells walls avatar hunters |
+	mazeCreator := MazeCreator
+		new: properties gridSizeX @ properties gridSizeY.
+	mazeCreator
+		buildMaze;
+		adaptToWallPercent: properties wallsPercent.
+	walls := mazeCreator walls
+		collect: [ :point | Wall newAt: point in: anEnvironment ].
+	freeCells := mazeCreator visitedCells.
+	properties nbHunters + 2 > freeCells size
+		ifTrue: [ UIManager default
+				alert: 'Too much walls, no more room for players !'.
+			^ walls ].
+	avatar := (Avatar
+		newAt: (freeCells remove: freeCells atRandom)
+		in: anEnvironment)
+		direction: 0 @ 0;
+		speed: properties speedAvatar;
+		invincibleLength: properties invincibleLength.
 	hunters := (1 to: properties nbHunters)
-		collect: [ :i | Hunter newAt: (positions at: i + 1) in: anEnvironment ].
-	walls := (1 to: nbWalls)
 		collect: [ :i | 
-			Wall
-				newAt: (positions at: i + 1 + properties nbHunters)
-				in: anEnvironment ].
+			(Hunter
+				newAt: (freeCells remove: freeCells atRandom)
+				in: anEnvironment) speed: properties speedHunter ].
 	^ {avatar.
 	hunters.
 	walls} flattened

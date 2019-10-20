@@ -1,3 +1,3 @@
 testing
-isAvatar
+isWinner
 	^ false

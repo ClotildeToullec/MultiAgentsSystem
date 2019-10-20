@@ -1,3 +1,3 @@
 testing
-isWall
+isDead
 	^ false

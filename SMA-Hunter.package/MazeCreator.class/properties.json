@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SMA-Hunter-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"extent",
+		"unvisitedCells",
+		"walls",
+		"currentCell",
+		"visitedCells",
+		"cellsWithNeighbors"
+	],
+	"name" : "MazeCreator",
+	"type" : "normal"
+}

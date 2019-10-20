@@ -1,6 +1,6 @@
 running
 runFromProperties
 	<script>
-	^ self fromProperties avatar
+	^ self fromProperties
 		run;
 		yourself

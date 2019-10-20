@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"keyStrokeDictionary",
+		"space"
+	],
 	"name" : "HunterGrid",
 	"type" : "normal"
 }

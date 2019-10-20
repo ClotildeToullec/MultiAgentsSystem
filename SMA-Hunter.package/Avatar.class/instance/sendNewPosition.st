@@ -1,7 +1,5 @@
 action
 sendNewPosition
-	"Dijkstra"
-
 	| frontier distance |
 	frontier := OrderedCollection new.
 	distance := Dictionary new.
@@ -9,12 +7,13 @@ sendNewPosition
 	distance at: self position put: 0.
 	[ frontier isEmpty ]
 		whileFalse: [ | current |
-			current := frontier first.
-			frontier removeFirst.
+			current := frontier removeFirst.
 			(environment freeCellsAround: current)
 				do: [ :neighbor | 
 					(distance includesKey: neighbor)
 						ifFalse: [ frontier add: neighbor.
-							distance at: neighbor put: (distance at: current) + 1 ] ] ].
+							distance
+								at: neighbor
+								put: (self setDistance: current ofCell: distance) ] ] ].
 	environment distancesToAvatar: distance.
 	^ distance

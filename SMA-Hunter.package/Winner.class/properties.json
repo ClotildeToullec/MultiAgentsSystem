@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "HuntingAgent",
+	"category" : "SMA-Hunter-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Winner",
+	"type" : "normal"
+}
