@@ -12,4 +12,4 @@ bounce
 		ifTrue: [ pasX := pasX negated ].
 	bouncedY
 		ifTrue: [ pasY := pasY negated ].
-	^ bouncedX or: [ bouncedY ]
+	^ bouncedX or: [ bouncedY ] 
